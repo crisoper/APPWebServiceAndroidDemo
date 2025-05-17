@@ -1,5 +1,9 @@
 package com.desappmov.appwebserviceandroid.model
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class Photo (
     val id: Int,
     val pageURL: String,
@@ -24,4 +28,4 @@ data class Photo (
     val user: String,
     val userImageURL: String,
     val noAiTraining: Boolean
-)
+): Parcelable
