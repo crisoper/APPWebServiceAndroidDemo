@@ -11,7 +11,7 @@ class PixabayRepository  {
     companion object {
         private const val BASE_URL = "https://pixabay.com/"
         // Cambiar por tu propia API KEY
-        private const val API_KEY = "50259145-bf60859095b70472804f712d3"
+        private const val API_KEY = ""
     }
 
     init {
